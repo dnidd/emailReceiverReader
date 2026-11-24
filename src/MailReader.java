@@ -16,13 +16,5 @@ public class MailReader {
 
         MailConnector connector = new MailConnector(host, user, password);
         connector.connect(quantityToRead);
-
-
     }
-
-
-
-
-
-
 }
